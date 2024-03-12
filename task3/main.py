@@ -13,7 +13,7 @@ from data.users import User
 
 
 def main():
-    db_session.global_init("db/for_example.db")
+    db_session.global_init("db/users.db")
     db_sess = db_session.create_session()
 
     # db_sess.query(User).delete()  # FUNCTION TO DELETE
@@ -58,13 +58,6 @@ def main():
     db_sess.add(boatswain1)
     db_sess.add(boatswain2)
     db_sess.add(cooker)
-
-    db_sess.commit()
-
-    db_sess.delete(cap)
-    db_sess.delete(boatswain1)
-    db_sess.delete(boatswain2)
-    db_sess.delete(cooker)
 
     db_sess.commit()
     # app.run()
