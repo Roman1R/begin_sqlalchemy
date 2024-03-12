@@ -37,8 +37,8 @@ def main():
     boatswain1.email = "mr_tom@mars.org"
 
     boatswain2 = User()
-    boatswain2.surname = "Absolutely_Hz"
-    boatswain2.name = "Hz"
+    boatswain2.surname = "Absolutely_Bill"
+    boatswain2.name = "Hezekov"
     boatswain2.age = 27
     boatswain2.position = "member"
     boatswain2.speciality = "boatswain"
